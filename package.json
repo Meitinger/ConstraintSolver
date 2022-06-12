@@ -1,0 +1,42 @@
+{
+  "name": "constraint_solver",
+  "version": "1.0.0",
+  "description": "Simple constraint solver for FUN language programs.",
+  "homepage": "https://meitinger.github.io/ConstraintSolver/",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "monaco-editor": "^0.31.0",
+    "parsimmon": "^1.18.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.4",
+    "uikit": "^3.14.3",
+    "viz.js": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/parsimmon": "^1.10.6",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/uikit": "^3.3.5",
+    "@types/viz.js": "^2.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-config-standard-react": "^11.0.1",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "vite": "^2.9.9"
+  },
+  "scripts": {
+    "build": "vite build --base=/ConstraintSolver/",
+    "dev": "vite",
+    "test": "eslint ./src --ext .ts,.tsx"
+  }
+}
