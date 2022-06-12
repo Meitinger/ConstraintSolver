@@ -29,8 +29,8 @@ const solver = (): Worker => new Worker(new URL('./solver.ts', import.meta.url),
 const runner = (): Worker => new Worker(new URL('./runner.ts', import.meta.url), { type: 'module' })
 const visualizer = (): Worker => new Worker(new URL('./visualizer.ts', import.meta.url), { type: 'module' })
 
-const programStoreName = 'program'
-const rulesStoreName = 'rules'
+const programStoreName = 'ConstraintSolver/program'
+const rulesStoreName = 'ConstraintSolver/rules'
 
 export const App: React.FC = () => {
   const gridDiv = useRef<HTMLUListElement>(null)
